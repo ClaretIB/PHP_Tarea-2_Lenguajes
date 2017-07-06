@@ -1,0 +1,150 @@
+.hide{
+	display: none;
+}
+.ver{
+	display: unset !important;
+}
+.ocultar{
+	display: none;
+}
+header{
+	position: absolute;
+    min-width: 100%;
+	top: 0;
+	z-index: 1;
+}
+@media only screen and (max-width: 770px){
+	#navMovile{
+		display: unset !important;		
+	}
+
+	#navNormal{
+		display: none;
+	}
+	header{
+		background: #222 !important;
+		color: #fff !important;
+		border-radius: 0.3em;
+	    min-height: 3em;
+	    padding-top: 1em;
+	    text-decoration: none;
+	}
+	header a:focus, a:hover {
+    color: #FFF;
+    text-decoration: none;
+	}
+	header a {
+    color: #FFF;
+    text-decoration: none;
+	}
+	header li{
+		list-style:none;
+	}
+	.info_result{
+	font-size: 1em !important;
+	font-style: bold !important;
+	margin-top: 1vh !important;
+	z-index: 1;
+	position: absolute;
+	top: 4vh;
+	max-width: 70% !important;
+	right: 0;
+	min-height: 5vh !important;
+	}
+	#admin_table{
+		min-width: 100% !important;
+		max-width: 100% !important;
+	}
+	td, th {
+    font-size: 60%;
+	}
+
+	#article-home{
+		padding-top: 35vh !important;
+		font-size: 2.5em !important;
+	}
+	header, nav{
+	display: inline-block;/*alinear y colocar como un bloque*/
+	vertical-align: middle;/*para acomodar*/
+	}
+
+	nav li{
+		display: inline-block;
+		padding: 0.1em;
+		vertical-align: top;
+		margin-right: 5%;
+	}
+
+
+}
+footer{
+	background: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.3em;
+    min-height: 3em;
+    padding-top: 1em;
+    position: absolute;
+    min-width: 100%;
+	bottom: 0;
+}
+#article-home {
+	min-width: 100%;
+	max-width:  100%;
+	min-height: 98vh;
+	max-height: 98vh;
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(188,192,194,0.93) 19%, rgba(142,149,153,0.86) 32%, rgba(67,96,110,0.8) 45%, rgba(57,86,100,0.78) 48%, rgba(53,82,97,0.8) 49%, rgba(65,94,108,0.89) 54%, rgba(67,96,110,0.89) 55%, rgba(142,149,153,0.95) 74%, rgba(211,214,216,1) 91%, rgba(247,249,250,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(19%, rgba(188,192,194,0.93)), color-stop(32%, rgba(142,149,153,0.86)), color-stop(45%, rgba(67,96,110,0.8)), color-stop(48%, rgba(57,86,100,0.78)), color-stop(49%, rgba(53,82,97,0.8)), color-stop(54%, rgba(65,94,108,0.89)), color-stop(55%, rgba(67,96,110,0.89)), color-stop(74%, rgba(142,149,153,0.95)), color-stop(91%, rgba(211,214,216,1)), color-stop(100%, rgba(247,249,250,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(188,192,194,0.93) 19%, rgba(142,149,153,0.86) 32%, rgba(67,96,110,0.8) 45%, rgba(57,86,100,0.78) 48%, rgba(53,82,97,0.8) 49%, rgba(65,94,108,0.89) 54%, rgba(67,96,110,0.89) 55%, rgba(142,149,153,0.95) 74%, rgba(211,214,216,1) 91%, rgba(247,249,250,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(188,192,194,0.93) 19%, rgba(142,149,153,0.86) 32%, rgba(67,96,110,0.8) 45%, rgba(57,86,100,0.78) 48%, rgba(53,82,97,0.8) 49%, rgba(65,94,108,0.89) 54%, rgba(67,96,110,0.89) 55%, rgba(142,149,153,0.95) 74%, rgba(211,214,216,1) 91%, rgba(247,249,250,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(188,192,194,0.93) 19%, rgba(142,149,153,0.86) 32%, rgba(67,96,110,0.8) 45%, rgba(57,86,100,0.78) 48%, rgba(53,82,97,0.8) 49%, rgba(65,94,108,0.89) 54%, rgba(67,96,110,0.89) 55%, rgba(142,149,153,0.95) 74%, rgba(211,214,216,1) 91%, rgba(247,249,250,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(188,192,194,0.93) 19%, rgba(142,149,153,0.86) 32%, rgba(67,96,110,0.8) 45%, rgba(57,86,100,0.78) 48%, rgba(53,82,97,0.8) 49%, rgba(65,94,108,0.89) 54%, rgba(67,96,110,0.89) 55%, rgba(142,149,153,0.95) 74%, rgba(211,214,216,1) 91%, rgba(247,249,250,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f9fa', GradientType=0 );
+	color: #FFF;
+	font-size: 3em;
+	text-align: center;
+	padding-top: 45vh;
+}
+.navbar-inverse .navbar-nav>li>a:focus{
+    color: #9d9d9d;
+}
+#main-partner{
+	min-width: 98%;
+	max-width:  98%;
+	min-height: 98vh;
+	max-height: 98vh;
+	padding-top: 13vh;
+	padding-left: 2%;
+}
+
+
+.modal-body input{
+    margin-bottom: 0.7em;
+}
+
+.info_result{
+	background: rgba(51,122,183,0.7);
+	color: #FFF;
+	font-style: bold;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 30vh;
+	padding-top: 1vh;
+	min-height: 7vh;
+	border-radius: 0.7em;
+}
+
+.table_height{
+	max-height: 60vh !important;
+    overflow: auto;
+}
+#menu2, #heigAcomodocel, #contentReservSalon{
+	max-height: 70vh !important;
+	overflow-y: auto;
+}
+
+.titleColor{
+	color: #084B8A !important;
+}
+
